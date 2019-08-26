@@ -1,14 +1,15 @@
 package com.lamda;
 
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Test {
 
 	public static void main(String[] args) {
-		int i=5;
-		i=i=i++;
-		
-		System.out.println(i);
-		System.out.println(i);
-		
+		Stream<String> stream=Stream.of("dolly","dolly1");
+		List<String> list=stream.collect(Collectors.toList());
+		list.forEach(System.out::println);
 
 	}
 

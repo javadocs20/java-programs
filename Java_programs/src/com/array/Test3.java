@@ -6,6 +6,7 @@ public class Test3 {
 		
 		String str1="pra";
 		String str2="pra";
+		System.out.println(str1==str2);
 		System.out.println("shh"+ str1==str2);
 		
 		
