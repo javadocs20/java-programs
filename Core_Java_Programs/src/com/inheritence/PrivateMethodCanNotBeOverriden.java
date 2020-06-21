@@ -39,6 +39,7 @@ public class PrivateMethodCanNotBeOverriden {
 		// shows that private method can not be overridden in Java
 		Parent parent = new Child();
 		parent.normal();
+		//parent.name(); // Not possible, because name() method declared PRIVATE in Parent class!
 	}
 
 }
