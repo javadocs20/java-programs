@@ -25,7 +25,7 @@ public class AnagramProgram {
 			System.out.println(">>>String are not anagram>>>");
 		}
 		
-		//2. using for loop
+		//2. using for loop 
 		boolean isAnagram=true;
 		for(int i=0,j=0; i<len1;i++,j++) {
 			
